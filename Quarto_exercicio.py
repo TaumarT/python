@@ -1,0 +1,6 @@
+pri_nota = int(input("digite o primeira nota: "))
+seg_nota= int(input("digite o segunda nota: "))
+ter_nota = int(input("digite o terceira nota: "))
+quat_nota = int(input("digite o quarta nota: "))
+media = ((pri_nota + seg_nota + ter_nota + quat_nota) / 4)
+print(media)

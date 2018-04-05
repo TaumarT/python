@@ -1,0 +1,15 @@
+print("dois numeros inteiro e um real")
+primeiro = int(input("digite o primeiro numero: "))
+segundo = int(input("digite o segundo numero: "))
+terceiro = float(input("digite o terceiro numero: "))
+
+Primeiro_resultado = (primeiro *2)*(segundo/2)
+Segundo_Resultado = ((primeiro * 3) + (terceiro))
+Terceiro_Resultado = (terceiro ** 3)
+
+print("--------------------------")
+print("O balor dos reslutados são")
+print("Primeiro: {:04.0f}".format(Primeiro_resultado))
+print("Segundo: {:06.2f} ".format(Segundo_Resultado))
+print("Terceiro: {:06.2f}".format(Terceiro_Resultado))
+print("--------------------------")
